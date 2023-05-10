@@ -9,11 +9,11 @@
         static void Main(string[] args)
         {
             //I have created an external class named Person and an external class named Client.
-            Person();
+            Person(); //This is a call to the method that implements the Person class
             Console.Write("Press any key to continue!");
             Console.ReadLine();
             Console.Clear();
-            Client();
+            Client(); //This is a call to the method that implements the Client class
         }
 
         static void Person()
